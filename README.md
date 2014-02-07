@@ -5,7 +5,7 @@ middleman-react [![Code Climate](https://codeclimate.com/github/plasticine/middl
 
 Inspired (and pretty much a clone of really) the react-rails gem for Middleman. This gem allows you to write and use `*.jsx` assets inside Middleman.
 
-#### Installing
+#### Usage
 `gem install middleman-react`
 
 #### Developing / Contributing
