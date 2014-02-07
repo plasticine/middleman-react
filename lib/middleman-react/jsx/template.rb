@@ -1,5 +1,4 @@
 require 'tilt'
-require 'pry'
 
 module Middleman
   module React
