@@ -1,4 +1,4 @@
-react-middleman
+middleman-react
 ===============
 
 `gem install middleman-react`
