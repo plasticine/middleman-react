@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+[ `which bundle` ] || gem install bundler
+
+bundle --binstubs --quiet
