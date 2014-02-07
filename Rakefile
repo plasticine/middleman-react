@@ -6,7 +6,6 @@ require 'bundler'
 
 Bundler::GemHelper.install_tasks
 
-require 'appraisal'
 require 'rake/clean'
 require 'rspec/core/rake_task'
 
