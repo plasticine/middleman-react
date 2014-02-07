@@ -1,4 +1,4 @@
-middleman-react [![Code Climate](https://codeclimate.com/github/plasticine/middleman-react.png)](https://codeclimate.com/github/plasticine/middleman-react)
+middleman-react [![Build Status](https://travis-ci.org/plasticine/middleman-react.png?branch=master)](https://travis-ci.org/plasticine/middleman-react) [![Code Climate](https://codeclimate.com/github/plasticine/middleman-react.png)](https://codeclimate.com/github/plasticine/middleman-react)
 ===============
 
 ### Use [React] JSX transformations with [Middleman].
