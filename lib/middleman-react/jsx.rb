@@ -3,6 +3,7 @@ require 'react/source'
 
 module Middleman
   module React
+    # Methods for invoking the JSXTransformer via ExecJS
     module JSX
       def self.context
         contents =
@@ -13,10 +14,10 @@ module Middleman
         @context ||= ExecJS.compile(contents)
       end
 
-      def self.transform(code)
-        result = context.call('JSXTransformer.transform', code)
-        return result['code']
+      def transform(code)
+        context.call('JSXTransformer.transform', code)['code']
       end
+      module_function :transform
     end
   end
 end

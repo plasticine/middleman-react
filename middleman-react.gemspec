@@ -25,9 +25,10 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "cane"
   gem.add_development_dependency "coveralls"
   gem.add_development_dependency "cucumber"
+  gem.add_development_dependency "middleman", '~> 3.2'
+  gem.add_development_dependency "pry"
   gem.add_development_dependency "rake"
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "rubocop"
   gem.add_development_dependency "simplecov"
-  gem.add_development_dependency "pry"
 end
