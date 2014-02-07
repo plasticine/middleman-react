@@ -1,3 +1,5 @@
+# encoding: UTF-8
+
 require 'middleman-core'
 require 'middleman-react/jsx'
 require 'middleman-react/jsx/template'

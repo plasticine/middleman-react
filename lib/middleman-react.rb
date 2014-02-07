@@ -1,3 +1,5 @@
+# encoding: UTF-8
+
 require 'middleman-core'
 
 ::Middleman::Extensions.register(:react) do

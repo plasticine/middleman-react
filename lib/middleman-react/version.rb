@@ -1,3 +1,5 @@
+# encoding: UTF-8
+
 module Middleman
   # Gem packaging constants
   module React
