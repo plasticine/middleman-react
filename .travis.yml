@@ -6,7 +6,3 @@ rvm:
   - 1.9.3
 script:
   - script/spec
-matrix:
-  include:
-    - rvm: 2.0.0
-      env: COVERAGE=true
