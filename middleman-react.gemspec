@@ -20,7 +20,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency "execjs"
   gem.add_dependency "react-source", "0.8.0"
 
-  gem.add_development_dependency "appraisal"
   gem.add_development_dependency "aruba"
   gem.add_development_dependency "cane"
   gem.add_development_dependency "coveralls"
