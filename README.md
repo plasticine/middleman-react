@@ -12,9 +12,8 @@ Inspired (and pretty much a clone of really) the [react-rails] gem for Middleman
 #### Developing / Contributing
 1. Fork it!
 2. Get set up: `./script/bootstrap`
-3. Write some code!
-3. Run specs: `./script/spec`
-4. ...?
+3. ...?
+4. Run specs: `./script/spec`
 5. Pull request!
 
 [React]:         http://facebook.github.io/react/
