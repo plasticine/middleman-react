@@ -6,7 +6,8 @@ middleman-react [![Build Status](https://travis-ci.org/plasticine/middleman-reac
 Inspired (and pretty much a clone of really) the [react-rails] gem for Middleman. This gem allows you to write and use `*.jsx` assets inside Middleman.
 
 #### Usage
-`gem install middleman-react`
+1. `gem install middleman-react`
+2. `activate :react` in `config.rb`
 
 #### Developing / Contributing
 1. Fork it!
