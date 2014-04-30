@@ -14,7 +14,7 @@ Feature: Transforming JSX into Javascript when it is written in Coffeescript
       /** @jsx React.DOM */
 
       (function() {
-        this.app.components.test = React.createClass({
+        this.app.components.test = React.createClass({displayName: 'test',
           render: function() {
             return React.DOM.div(null, 
             TestComponent( {data:this.props.someData} )

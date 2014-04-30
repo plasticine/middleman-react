@@ -1,4 +1,4 @@
-middleman-react [![Build Status](https://travis-ci.org/plasticine/middleman-react.png?branch=master)](https://travis-ci.org/plasticine/middleman-react) [![Code Climate](https://codeclimate.com/github/plasticine/middleman-react.png)](https://codeclimate.com/github/plasticine/middleman-react)
+middleman-react [![Gem Version](https://badge.fury.io/rb/middleman-react.svg)](http://badge.fury.io/rb/middleman-react) [![Build Status](https://travis-ci.org/plasticine/middleman-react.png?branch=master)](https://travis-ci.org/plasticine/middleman-react) [![Code Climate](https://codeclimate.com/github/plasticine/middleman-react.png)](https://codeclimate.com/github/plasticine/middleman-react)
 ===============
 
 ### Use [React] JSX transformations with [Middleman].
@@ -16,6 +16,6 @@ Inspired (and pretty much a clone of really) the [react-rails] gem for Middleman
 4. Run specs: `./script/spec`
 5. Pull request!
 
-[React]:         http://facebook.github.io/react/
-[Middleman]:     http://middlemanapp.com
-[react-rails]:   https://github.com/facebook/react-rails
+[React]:       http://facebook.github.io/react/
+[Middleman]:   http://middlemanapp.com
+[react-rails]: https://github.com/facebook/react-rails

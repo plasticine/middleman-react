@@ -2,5 +2,5 @@
 
 bundle --binstubs --quiet
 
-bin/cucumber spec/features
 bin/rubocop lib
+bin/cucumber spec/features
