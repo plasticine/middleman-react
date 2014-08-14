@@ -1,10 +1,10 @@
 PATH
   remote: .
   specs:
-    middleman-react (0.10.0)
+    middleman-react (0.11.1)
       execjs
       middleman-core (>= 3.0)
-      react-source (= 0.10.0)
+      react-source (~> 0.11.1)
 
 GEM
   remote: https://rubygems.org/
@@ -103,7 +103,7 @@ GEM
       ffi (>= 0.5.0)
     rdoc (3.12.2)
       json (~> 1.4)
-    react-source (0.10.0)
+    react-source (0.11.1)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
