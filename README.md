@@ -9,6 +9,29 @@ Inspired (and pretty much a clone of really) the [react-rails] gem for Middleman
 1. `gem install middleman-react`
 2. `activate :react` in `config.rb`
 
+
+#### Sprockets loading react-source
+
+In your Middleman `config.rb` add the following:
+
+``` ruby
+after_configuration do
+  sprockets.append_path File.dirname(::React::Source.bundled_path_for('react.js'))
+end
+```
+
+Now you can Sprockets include React:
+
+```
+//= require react
+```
+
+Or with addons:
+
+```
+//= require react-with-addons
+```
+
 #### Developing / Contributing
 1. Fork it!
 2. Get set up: `./script/bootstrap`
