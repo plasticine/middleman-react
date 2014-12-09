@@ -11,7 +11,7 @@ Feature: Transforming JSX into Javascript
     Then the stdout from "cat assets/javascripts/plain_jsx.js" should contain exactly:
       """
       /** @jsx React.DOM */
-      React.DOM.div(null);
+      React.createElement("div", null);
 
       """
     And the exit status should be 0
