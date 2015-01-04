@@ -9,6 +9,16 @@ Inspired (and pretty much a clone of really) the [react-rails] gem for Middleman
 1. `gem install middleman-react`
 2. `activate :react` in `config.rb`
 
+##### Options
+
+It is also possible to pass options through to the JSX compiler if that’s your thing:
+
+``` ruby
+activate :react do |config|
+  config.harmony = true
+  config.strip_types = true
+end
+```
 
 #### Sprockets loading react-source
 
