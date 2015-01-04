@@ -8,10 +8,22 @@ module Middleman
     class Template < Tilt::Template
       self.default_mime_type = 'application/javascript'
 
-      def prepare; end
+      cattr_accessor :harmony
+      cattr_accessor :strip_types
+      @harmony = false
+      @strip_types = false
+
+      def prepare
+        if self.class.harmony || options.key?(:harmony)
+          options[:harmony] = self.class.harmony
+        end
+        if self.class.strip_types || options.key?(:stripTypes)
+          options[:stripTypes] = self.class.strip_types
+        end
+      end
 
       def evaluate(scope, locals, &block)
-        @output ||= JSX.transform(data)
+        @output ||= JSX.transform(data, options)
       end
     end
   end

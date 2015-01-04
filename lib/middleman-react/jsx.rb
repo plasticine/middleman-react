@@ -16,8 +16,8 @@ module Middleman
         @context ||= ExecJS.compile(contents)
       end
 
-      def transform(code)
-        context.call('JSXTransformer.transform', code)['code']
+      def transform(code, opts = {})
+        context.call('JSXTransformer.transform', code, opts)['code']
       end
       module_function :transform
     end
