@@ -45,7 +45,7 @@ Or with addons:
 #### A note on versioning
 
 The version for this gem will reflect that of the underlying version of `react-source`, meaning that using `0.12.1` of this gem will give you version `0.12.1` of React. This is the same approach that `react-rails` takes.
-If updates to the gem code are required that do not alter the `react-source` version in use need to be made they will be released with a `.1` version appended, eg: `0.12.1.1`.
+If updates to the gem code are required that do not alter the `react-source` version in use need to be made they will be released with a `.x` version appended, eg: `0.12.1.1`.
 
 #### Developing / Contributing
 1. Fork it!
