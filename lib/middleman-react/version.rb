@@ -4,6 +4,6 @@ module Middleman
   # Gem packaging constants
   module React
     PACKAGE = 'middleman-react'
-    VERSION = '0.12.1'
+    VERSION = '0.12.1.1'
   end
 end
