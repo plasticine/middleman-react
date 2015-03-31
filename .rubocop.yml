@@ -1,0 +1,12 @@
+Style/FileName:
+  Exclude:
+    - lib/middleman-react.rb
+
+Metrics/AbcSize:
+  Max: 17
+
+Style/GuardClause:
+  Enabled: false
+
+Lint/UnusedMethodArgument:
+  Enabled: false
