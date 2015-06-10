@@ -10,6 +10,7 @@ module Middleman
 
       cattr_accessor :harmony
       cattr_accessor :strip_types
+
       @harmony = false
       @strip_types = false
 
@@ -22,7 +23,7 @@ module Middleman
         end
       end
 
-      def evaluate(scope, locals, &block)
+      def evaluate(_scope, _locals, &_block)
         @output ||= JSX.transform(data, options)
       end
     end

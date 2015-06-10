@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    middleman-react (0.13.1)
+    middleman-react (0.13.3)
       execjs
       middleman-core (>= 3.0)
       react-source (~> 0.13.3)
