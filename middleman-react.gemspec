@@ -19,6 +19,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'middleman-core', ['>= 3.0']
   gem.add_dependency 'execjs'
   gem.add_dependency 'react-source', '~> 0.13.3'
+  gem.add_dependency 'coffee-react'
 
   gem.add_development_dependency 'aruba'
   gem.add_development_dependency 'cane'

@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     middleman-react (0.13.3)
+      coffee-react
       execjs
       middleman-core (>= 3.0)
       react-source (~> 0.13.3)
@@ -31,6 +32,8 @@ GEM
       ffi (~> 1.0, >= 1.0.11)
     chunky_png (1.3.4)
     coderay (1.1.0)
+    coffee-react (3.0.1)
+      execjs
     coffee-script (2.4.1)
       coffee-script-source
       execjs
