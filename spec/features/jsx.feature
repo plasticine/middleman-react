@@ -11,6 +11,7 @@ Feature: Transforming JSX into Javascript
     Then the stdout from "cat assets/javascripts/plain_jsx.js" should contain exactly:
       """
       /** @jsx React.DOM */
+      
       React.createElement("div", null);
 
       """

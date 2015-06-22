@@ -42,6 +42,36 @@ Or with addons:
 //= require react-with-addons
 ```
 
+
+#### React Helper & Server Rendering
+
+`react_component` is a helper that will let you pass in data from ruby code and have it rendered via React.  This rendering can be done on the client (default), or on the server, which is handy for SEO.
+
+```
+<%= react_component "Book", {data: book } %>
+```
+
+For server prerendering you need to include the `react_ujs` javascript component to wire up the prendered content.  So:
+
+```
+<%= react_component "Book", {data: book }, {prerender: true} %>
+```
+
+In your main `.js` file:
+
+```
+//= require react_ujs
+```
+
+And in `config.rb`:
+
+```
+after_configuration do
+  sprockets.append_path File.dirname(Middleman::React::react_ujs_path)
+end
+```
+
+
 #### A note on versioning
 
 The version for this gem will reflect that of the underlying version of `react-source`, meaning that using `0.12.1` of this gem will give you version `0.12.1` of React. This is the same approach that `react-rails` takes.
