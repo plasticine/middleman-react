@@ -1,11 +1,12 @@
 # encoding: UTF-8
 
 require 'tilt'
+require 'coffee-react'
 
 module Middleman
   module React
-    module JSX
-      # Tilt Tempalte for handling JSX files
+    module CJSX
+      # Tilt Tempalte for handling CJSX files
       class Template < Tilt::Template
         self.default_mime_type = 'application/javascript'
 
@@ -25,7 +26,8 @@ module Middleman
         end
 
         def evaluate(_scope, _locals, &_block)
-          @output ||= JSX.transform(data, options)
+          @coffee ||= ::CoffeeReact.transform(data, options)
+          @output ||= ::CoffeeScript.compile @coffee
         end
       end
     end
